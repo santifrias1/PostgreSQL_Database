@@ -70,7 +70,7 @@ sudo -u postgres psql -d <database_name>
 
 ```sql
 \dt
-SELECT * FROM <some_table> LIMIT 5;
+SELECT * FROM <some_table> LIMIT 3;
 ```
 
 Alternatively, you can connect to the database using a graphical database client such as pgAdmin or DBeaver to browse the schema and inspect the loaded data visually.
