@@ -1,19 +1,19 @@
-INSERT INTO categoria (id_categoria, nombre) VALUES
+INSERT INTO categoria (id_categoria, nombre_categoria) VALUES
 (1, 'Principiante'),
 (2, 'Intermedio'),
 (3, 'Avanzado');
 
-INSERT INTO carrera (id_carrera, nombre, fecha, distancia, ciudad) VALUES
+INSERT INTO carrera (id_carrera, nombre_carrera, fecha_carrera, distancia, ciudad) VALUES
 (1, 'Maratón de Concepcion', '2025-10-19', 42, 'Tucuman'),
 (2, 'Media Maratón de Termas de Rio Hondo', '2025-09-07', 21, 'Santiago del estero'),
 (3, 'Carrera 10K Carlos Paz', '2025-08-03', 10, 'Cordoba');
 
-INSERT INTO catalogo_ejercicios (id_ejercicio, nombre, descripcion, enlace_video) VALUES
+INSERT INTO catalogo_ejercicios (id_ejercicio, nombre_ejercicio, descripcion, enlace_video) VALUES
 (1, 'Sentadilla', 'Trabaja cuádriceps, isquiotibiales y glúteos.', 'https://youtube.com/sentadilla'),
 (2, 'Plancha abdominal', 'Posición sostenida apoyando antebrazos. Activa el core.', 'https://youtube.com/plancha'),
 (3, 'Burpee', 'Movimiento explosivo completo: sentadilla, plancha y salto.', 'https://youtube.com/burpee');
 
-INSERT INTO atleta (id_atleta, nombre, apellido, peso, altura, fecha_nacimiento, nivel_experiencia, id_categoria) VALUES
+INSERT INTO atleta (id_atleta, nombre_atleta, apellido, peso, altura, fecha_nacimiento, nivel_experiencia, id_categoria) VALUES
 (1, 'Juan',   'Perez', 58.5, 1.65, '1993-04-12', 'Avanzado',     3),
 (2, 'Marcos',  'González',  72.0, 1.78, '1988-11-30', 'Intermedio',   2),
 (3, 'Valentina','Romero',   55.0, 1.60, '2000-06-25', 'Principiante', 1);

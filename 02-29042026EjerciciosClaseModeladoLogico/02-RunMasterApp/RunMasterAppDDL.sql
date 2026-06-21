@@ -1,13 +1,13 @@
 CREATE TABLE categoria (
 	id_categoria INTEGER NOT NULL,
-	nombre VARCHAR(50) NOT NULL,
+	nombre_categoria VARCHAR(50) NOT NULL,
 	CONSTRAINT categoria_pk PRIMARY KEY (id_categoria)
 );
 
 CREATE TABLE carrera (
 	id_carrera INTEGER NOT NULL,
-	nombre VARCHAR(100) NULL,
-	fecha DATE NULL,
+	nombre_carrera VARCHAR(100) NULL,
+	fecha_carrera DATE NULL,
 	distancia INTEGER NULL,
 	ciudad VARCHAR(100) NULL,
 	CONSTRAINT carrera_pk PRIMARY KEY (id_carrera)
@@ -15,7 +15,7 @@ CREATE TABLE carrera (
 
 CREATE TABLE catalogo_ejercicios (
 	id_ejercicio INTEGER NOT NULL,
-	nombre VARCHAR(100) NULL,
+	nombre_ejercicio VARCHAR(100) NULL,
 	descripcion TEXT NULL,
 	enlace_video TEXT NULL,
 	CONSTRAINT catalogo_ejercicios_pk PRIMARY KEY (id_ejercicio)
@@ -23,7 +23,7 @@ CREATE TABLE catalogo_ejercicios (
 
 CREATE TABLE atleta (
 	id_atleta INTEGER NOT NULL,
-	nombre VARCHAR(50) NOT NULL,
+	nombre_atleta VARCHAR(50) NOT NULL,
 	apellido VARCHAR(50) NOT NULL,
 	peso NUMERIC(5,2) NULL,
 	altura NUMERIC(4,2) NULL,

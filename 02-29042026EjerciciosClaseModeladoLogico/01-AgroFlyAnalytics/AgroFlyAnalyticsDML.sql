@@ -1,4 +1,4 @@
-INSERT INTO clientes (nombre, correo, telefono) VALUES
+INSERT INTO clientes (nombre_cliente, correo, telefono) VALUES
 ('Juan Pérez', 'juan.perez@email.com', '+54 9 11 2345-6789'),
 ('María González', 'maria.gonzalez@email.com', '+54 9 381 543-8901'),
 ('Carlos Romero', 'carlos.romero@email.com', '+54 9 3865 56-9012');
