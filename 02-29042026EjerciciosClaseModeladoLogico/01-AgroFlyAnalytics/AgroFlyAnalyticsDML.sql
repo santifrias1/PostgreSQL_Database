@@ -34,6 +34,6 @@ INSERT INTO dron_sensores (numero_serie_dron, id_sensor, fecha_instalacion) VALU
 ('DJI-AGR-002', 3, '2023-08-01');
 
 INSERT INTO vuelos (fecha_hora, nivel_anomalias_detectadas, enlace_reporte_pdf, numero_serie_dron, id_parcela) VALUES
-('2025-01-10 08:30:00', 'Bajo', 'https://agrofly.io/reportes/vuelo_001.pdf', 'DJI-AGR-001', 1),
-('2025-02-14 10:15:00', 'Medio', 'https://agrofly.io/reportes/vuelo_002.pdf', 'DJI-AGR-002', 2),
-('2025-03-05 07:45:00', 'Alto', 'https://agrofly.io/reportes/vuelo_003.pdf', 'XAG-P100-003', 3);
+('2025-01-10 08:30:00', 3, 'https://agrofly.io/reportes/vuelo_001.pdf', 'DJI-AGR-001', 1),
+('2025-02-14 10:15:00', 5, 'https://agrofly.io/reportes/vuelo_002.pdf', 'DJI-AGR-002', 2),
+('2025-03-05 07:45:00', 9, 'https://agrofly.io/reportes/vuelo_003.pdf', 'XAG-P100-003', 3);

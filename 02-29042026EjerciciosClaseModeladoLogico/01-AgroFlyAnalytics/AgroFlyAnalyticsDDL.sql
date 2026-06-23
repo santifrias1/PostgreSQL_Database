@@ -55,7 +55,7 @@ CREATE TABLE dron_sensores (
 CREATE TABLE vuelos (
     	id_vuelo SERIAL PRIMARY KEY,
     	fecha_hora TIMESTAMP NOT NULL,
-    	nivel_anomalias_detectadas VARCHAR(50) NOT NULL,
+    	nivel_anomalias_detectadas INTEGER NOT NULL,
     	enlace_reporte_pdf VARCHAR(255),
     	numero_serie_dron VARCHAR(100) NOT NULL,
     	id_parcela INT NOT NULL,
