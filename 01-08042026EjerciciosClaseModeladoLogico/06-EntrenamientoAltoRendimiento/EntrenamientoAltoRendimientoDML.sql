@@ -9,8 +9,8 @@ INSERT INTO ejercicio (id_ejercicio, nombre_ejercicio, grupo_muscular) VALUES
 (3, 'Peso muerto', 'Espalda');
 
 INSERT INTO socio (id_socio, nombre_socio, fecha_nacimiento, peso_corporal, id_entrenador) VALUES
-(1, 'Martina Gomez', '1998-04-12', 62.50, 1),
-(2, 'Lucas Fernandez', '1995-09-23', 78.30, 2),
+(1, 'Martina Gomez', '1989-04-12', 95.50, 1),
+(2, 'Lucas Fernandez', '1975-09-23', 78.30, 2),
 (3, 'Sofia Rodriguez', '2000-01-15', 58.00, 3);
 
 INSERT INTO rutina (id_rutina, nombre_rutina, objetivo, id_socio, id_entrenador) VALUES
