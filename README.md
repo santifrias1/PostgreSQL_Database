@@ -1,6 +1,6 @@
 # Database Project
 
-This repository contains the **DDL** (schema definition) and **DML** (seed/sample data) scripts for database modeling exercises (Entity and Relationship Diagrams).
+This repository contains the **DDL** (schema definition), **DML** (seed/sample data) and **DQL** (data query) scripts for database modeling exercises (Entity and Relationship Diagrams).
 
 ## Working Environment
 
@@ -58,6 +58,12 @@ sudo -u postgres psql -d <database_name> -f <database_name>_ddl.sql
 
 ```sh
 sudo -u postgres psql -d <database_name> -f <database_name>_dml.sql
+```
+
+### 6. Load the sample data (DQL)
+
+```sh
+sudo -u postgres psql -d <database_name> -f <database_name>_dql.sql
 ```
 
 ## Verifying the Setup
