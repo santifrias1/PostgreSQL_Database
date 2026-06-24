@@ -48,23 +48,12 @@ CREATE DATABASE <database_name>;
 cd ~/PostgreSQL_Database
 ```
 
-### 4. Load the schema (DDL)
+### 4. Load the files DDL, DML and DQL
 
 ```sh
-sudo -u postgres psql -d <database_name> -f <database_name>_ddl.sql
+sudo -u postgres psql -d <database_name> -f file.sql
 ```
-
-### 5. Load the sample data (DML)
-
-```sh
-sudo -u postgres psql -d <database_name> -f <database_name>_dml.sql
-```
-
-### 6. Load the sample data (DQL)
-
-```sh
-sudo -u postgres psql -d <database_name> -f <database_name>_dql.sql
-```
+> You can also run SQL scripts from PostgreSQL-compatible graphical tools, such as DBeaver or pgAdmin, using the built-in SQL editor.
 
 ## Verifying the Setup
 
@@ -78,5 +67,4 @@ sudo -u postgres psql -d <database_name>
 \dt
 SELECT * FROM <some_table> LIMIT 3;
 ```
-
-Alternatively, you can connect to the database using a graphical database client such as pgAdmin or DBeaver to browse the schema and inspect the loaded data visually.
+> Alternatively, you can connect to the database using a graphical database client such as pgAdmin or DBeaver to browse the schema and inspect the loaded data visually.
