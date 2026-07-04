@@ -20,8 +20,8 @@ INSERT INTO plato (id_plato, nombre_plato, descripcion, precio, id_restaurante) 
 
 INSERT INTO pedido (numero_orden, fecha_pedido, monto_total, id_cliente, id_restaurante, id_repartidor) VALUES
 (1, '2026-06-10', 9500.00, 1, 1, 1),
-(2, '2026-06-12', 8200.00, 2, 2, 2),
-(3, '2026-06-15', 6800.00, 3, 3, 3);
+(2, '2026-06-12', 8200.00, 2, 2, NULL),
+(3, '2026-06-15', 6800.00, 3, NULL, 3);
 
 INSERT INTO detalle_pedido (numero_orden, id_plato, cantidad) VALUES
 (1, 1, 1),

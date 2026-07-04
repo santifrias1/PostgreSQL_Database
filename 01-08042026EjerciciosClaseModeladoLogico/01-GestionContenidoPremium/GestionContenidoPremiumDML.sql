@@ -10,5 +10,5 @@ INSERT INTO contenido (id_contenido, titulo, tipo_archivo, fecha_publicacion, pr
 
 INSERT INTO nivel_suscripcion (id_nivel, nombre_nivel, precio_mensual, id_creador) VALUES
 (1, 'Bronce', 4.99, 1),
-(2, 'Oro', 9.99, 2),
+(2, 'Oro', 9.99, NULL),
 (3, 'VIP', 14.99, 3);

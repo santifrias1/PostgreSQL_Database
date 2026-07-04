@@ -14,7 +14,7 @@ INSERT INTO socio (id_socio, nombre_socio, fecha_nacimiento, peso_corporal, id_e
 (3, 'Sofia Rodriguez', '2000-01-15', 58.00, 3);
 
 INSERT INTO rutina (id_rutina, nombre_rutina, objetivo, id_socio, id_entrenador) VALUES
-(1, 'Fuerza Tren Inferior', 'Hipertrofia', 1, 1),
+(1, 'Fuerza Piernas', 'Hipertrofia', 1, 1),
 (2, 'Push Pull', 'Ganancia de masa muscular', 2, 2),
 (3, 'Full Body', 'Resistencia y tonificacion', 3, 3);
 
